@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stellar & Slack</title>
+    <style>
+        .hide {
+            display: none;
+        }
+        body {
+            max-width: 940px;
+            line-height: 1.4;
+            font-size: 16px;
+        }
+        input {
+            padding: 10px;
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Request to join the community</h1>
+    <form action="https://api.formbucket.com/f/buk_5pVfPytVbCJTXir6aMB7zDN9" method="post" target="_blank">
+        <p><input type="text" name="name" placeholder="Full Name" /></p>
+        <p><input type="text" name="email" placeholder="Email" /></p>
+        <p><input type="text" name="social" placeholder="Social profile URL (e.g. Twitter, Facebook or Linkedin)" /></p>
+        <p><textarea name="interests" placeholder="What interests you about Stellar?"></textarea></p>
+        <p class="hide"><label>Honey pot (Should be empty and hidden)</label><input type="text" name="__bucket_trap__" value=""/></p>
+        <p><button class="button secondary" type="submit">Submit</button></p>
+    </form>
+</body>
+</html>
